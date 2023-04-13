@@ -1,0 +1,587 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+.Text {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 25px;
+  line-height: 7px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #2958ae;
+}
+.ageText {
+  position: absolute;
+  left: 320px;
+  top: 140px;
+}
+.cityText {
+  position: absolute;
+  left: 870px;
+  top: 140px;
+}
+.zipCodeText {
+  position: absolute;
+  left: 1420px;
+  top: 140px;
+}
+.populationText {
+  position: absolute;
+  left: 320px;
+  top: 270px;
+}
+.longitudeText {
+  position: absolute;
+  left: 870px;
+  top: 270px;
+}
+.latitudeText {
+  position: absolute;
+  left: 1420px;
+  top: 270px;
+}
+.streamingMusicText {
+  position: absolute;
+  left: 320px;
+  top: 400px;
+}
+.dependentsText {
+  position: absolute;
+  left: 870px;
+  top: 400px;
+}
+.noOfDependentsText {
+  position: absolute;
+  left: 1420px;
+  top: 400px;
+}
+.cltvText {
+  position: absolute;
+  left: 320px;
+  top: 530px;
+}
+.contractText {
+  position: absolute;
+  left: 870px;
+  top: 530px;
+}
+.paperlessBillingText {
+  position: absolute;
+  left: 1420px;
+  top: 530px;
+}
+.internetTypeText {
+  position: absolute;
+  left: 320px;
+  top: 660px;
+}
+.paymentMethodText {
+  position: absolute;
+  left: 870px;
+  top: 660px;
+}
+.monthlyChargesText {
+  position: absolute;
+  left: 1420px;
+  top: 660px;
+}
+.charges1Text {
+  position: absolute;
+  left: 320px;
+  top: 790px;
+}
+.charges2Text {
+  position: absolute;
+  left: 870px;
+  top: 790px;
+}
+.charges3Text {
+  position: absolute;
+  left: 1420px;
+  top: 790px;
+}
+.referredAFriendText {
+  position: absolute;
+  left: 320px;
+  top: 920px;
+}
+.noOfReferralText {
+  position: absolute;
+  left: 870px;
+  top: 920px;
+}
+.tenureInMonthsText {
+  position: absolute;
+  left: 1420px;
+  top: 920px;
+}
+.charge4Text {
+  position: absolute;
+  left: 580px;
+  top: 1070px;
+}
+.charge5Text {
+  position: absolute;
+  left: 1170px;
+  top: 1070px;
+}
+.AgeTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 300px;
+  top: 170px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.CityTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 850px;
+  top: 170px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.zipCodeTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 1400px;
+  top: 170px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.populationTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 300px;
+  top: 300px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.longitudeTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 850px;
+  top: 300px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.latitudeTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 1400px;
+  top: 300px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.streamingMusicTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 300px;
+  top: 430px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.dependentsTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 850px;
+  top: 430px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.noOfDependentsTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 1400px;
+  top: 430px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.cltvTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 300px;
+  top: 560px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.contractTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 850px;
+  top: 560px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.paperlessBillingTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 1400px;
+  top: 560px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.internetTypeTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 300px;
+  top: 690px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.paymentMethodTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 850px;
+  top: 690px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.monthlyChargesTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 1400px;
+  top: 690px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.charges1Textbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 300px;
+  top: 820px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.charges2Textbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 850px;
+  top: 820px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.charges3Textbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 1400px;
+  top: 820px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.referredAFriendTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 300px;
+  top: 950px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.noOfReferralTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 850px;
+  top: 950px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.tenureInMonthsTextbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 1400px;
+  top: 950px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.charge4Textbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 600px;
+  top: 1100px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.charge5Textbox {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 1150px;
+  top: 1100px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.submitbutton {
+  position: absolute;
+  width: 280px;
+  height: 80px;
+  left: 920px;
+  top: 1300px;
+  background: #2958ae;
+  border-color: #2958ae;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  justify-content: center;
+}
+.resultBox {
+  position: absolute;
+  width: 947px;
+  height: 350px;
+  left: 580px;
+  top: 340px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+.resultIDtag {
+  position: absolute;
+  width: 480px;
+  height: 96px;
+  left: 60px;
+  top: 150px;
+  background: #8845e4;
+  border-radius: 80px;
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  justify-content: center;
+}
+.resultStatustag {
+  position: absolute;
+  width: 241px;
+  height: 96px;
+  left: 650px;
+  top: 150px;
+  background: #ff0091;
+  border-radius: 80px;
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.promptText1 {
+  position: absolute;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 7px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #26272a;
+  top: 60px;
+  left: 120px;
+  text-align: center;
+}
+.tick {
+  position: absolute;
+  top: 40px;
+  left: 730px;
+  width: 50px;
+  height: 50px;
+}
+.addbutton {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 780px;
+  top: 750px;
+  background: #2958ae;
+  border-color: #2958ae;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  justify-content: center;
+}

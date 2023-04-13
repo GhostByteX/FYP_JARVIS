@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Poppins';
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+.welcomeetxt {
+  position: absolute;
+  left: 330px;
+  top: 35px;
+  color: #ea4598;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 16px;
+}
+
+.welcomeetxtspan {
+  color: #8845e4;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 16px;
+}
+
+.wave {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 740px;
+  top: 23px;
+}
+.wave1 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 690px;
+  top: 18px;
+}
+.wave2 {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  left: 630px;
+  top: 20px;
+}
+.userpic {
+  position: absolute;
+  left: 1420px;
+  top: 20px;
+  color: #2958ae;
+}
+.userNametxt {
+  position: absolute;
+  left: 1470px;
+  top: 35px;
+  color: #2958ae;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 16px;
+}
+
+.dropdownpic {
+  position: absolute;
+  left: 1600px;
+  top: 30px;
+  color: #2958ae;
+  opacity: 0.75;
+}
+
+.dropdownpic:hover {
+  border-radius: 2px;
+  color: rgb(203, 193, 193);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.container1 {
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  left: 1340px;
+  top: 110px;
+  background: #ffffff;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.container2 {
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  left: 1340px;
+  top: 500px;
+  background: #ffffff;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.container3 {
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  left: 1340px;
+  top: 890px;
+  background: #ffffff;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.container4 {
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  left: 1340px;
+  top: 1280px;
+  background: #ffffff;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.container5 {
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  left: 330px;
+  top: 1280px;
+  background: #ffffff;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.statsbox1 {
+  position: absolute;
+  width: 350px;
+  height: 60px;
+  left: 50px;
+  top: 70px;
+  background: #f5f5f5;
+  border-radius: 30px;
+}
+.statsbox1txt {
+  position: relative;
+  color: #727171;
+  left: 250px;
+  font-size: 25px;
+  font-weight: 600;
+  top: 13px;
+}
+.statsbox2txt {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  top: 13px;
+}
+.statsbox2 {
+  position: absolute;
+  width: 230px;
+  height: 60px;
+  left: 50px;
+  top: 70px;
+  background: #f1716c;
+  border-radius: 30px;
+}
+.statsbox3 {
+  position: absolute;
+  width: 230px;
+  height: 60px;
+  left: 50px;
+  top: 70px;
+  background: #f76982;
+  border-radius: 30px;
+}
+.statsbox4 {
+  position: absolute;
+  width: 230px;
+  height: 60px;
+  left: 50px;
+  top: 70px;
+  background: #8845e4;
+  border-radius: 30px;
+}
+.keypositioning {
+  position: relative;
+  height: 30px;
+  width: 100px;
+  top: 110px;
+  left: 170px;
+}
+.keypositioning1 {
+  position: relative;
+  height: 30px;
+  width: 160px;
+  top: 270px;
+  left: 150px;
+}
+.keypositioning2 {
+  position: relative;
+  height: 30px;
+  width: 250px;
+  top: 270px;
+  left: 110px;
+}
+.keypositioning3 {
+  position: relative;
+  height: 30px;
+  width: 290px;
+  top: 270px;
+  left: 90px;
+}
+.container6 {
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  left: 830px;
+  top: 1280px;
+  background: #ffffff;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.container7 {
+  position: absolute;
+  width: 280px;
+  height: 120px;
+  left: 330px;
+  top: 110px;
+  background-image: linear-gradient(-120deg, #f76982, #ea4598);
+  border-radius: 35px;
+  cursor: pointer;
+}
+.labeltxt {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  opacity: 0.95;
+}
+.labeltxt2 {
+  position: relative;
+  top: 25px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+.maptxt {
+  position: relative;
+  top: 25px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+}
+.valuetxt {
+  position: relative;
+  top: 25px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.container8 {
+  position: absolute;
+  width: 280px;
+  height: 120px;
+  left: 665px;
+  top: 110px;
+  background-image: linear-gradient(-120deg, #8845e4, #5773ee);
+  border-radius: 35px;
+  cursor: pointer;
+}
+.container9 {
+  position: absolute;
+  width: 280px;
+  height: 120px;
+  left: 990px;
+  top: 110px;
+  background-image: linear-gradient(-120deg, #f1716c, #e86560);
+  border-radius: 35px;
+  cursor: pointer;
+}
+.container10 {
+  position: absolute;
+  width: 945px;
+  height: 450px;
+  left: 330px;
+  top: 255px;
+  background-color: #ffffff;
+  backdrop-filter: blur(75px);
+  border-radius: 35px;
+}
+.container11 {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  left: 330px;
+  top: 740px;
+  background: #ffffff;
+  border-radius: 35px;
+}
+.areachart {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+.mapPos {
+  position: absolute;
+  top: 500px;
+}
+.container12 {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  left: 830px;
+  top: 740px;
+  background: #ffffff;
+  border-radius: 35px;
+}
+.logoutButton {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 1570px;
+  top: 60px;
+  color: #050505;
+  background: #ffffff;
+  border-radius: 10px;
+  border-color: #ffffff;
+  font-family: 'League Spartan';
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+}
